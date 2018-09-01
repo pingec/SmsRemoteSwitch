@@ -1,4 +1,4 @@
-#SmsRemoteSwitch
+# SmsRemoteSwitch
 
 This was my first electronics/microcontroller project. The main purpose was to get acquainted with the AVR architecture. This is why it is written in AVR assembly from scratch without any third party libraries.
 
@@ -11,7 +11,7 @@ This is actually not the final production code, it seems I have lost that one, b
 The code is for an ATmega168A chip which is used to interface a GSM terminal over RS232, toggle relay switches and acquire temperature readings from 1wire DS18B20 sensors. 
 It can receive SMS commands to toggle relay switches and it supports SMS queries to report back temperatures through connected 1wire sensors.
 
-#Supported SMS commands
+# Supported SMS commands
 - Help - list available commands
 - GetTemp - returns temperature readings from all sensors
 - SwStatus - returns the states of the connected relay switches
